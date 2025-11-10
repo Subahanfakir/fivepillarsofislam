@@ -94,29 +94,34 @@ const Hajj = () => {
         </div>
       </section>
 
-      {/* Image Section */}
+      {/* Video and Image Section */}
       <section className="py-16 bg-background">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <Card className="border-2 border-accent overflow-hidden">
-            <CardContent className="p-0">
-              <div className="aspect-[16/9] bg-muted flex items-center justify-center">
-                <p className="text-muted-foreground italic">Image placeholder: Hajj pilgrimage</p>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
-      {/* Video Section */}
-      <section className="py-16 bg-islamic-pattern">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <Card className="border-2 border-primary overflow-hidden">
-            <CardContent className="p-0">
-              <div className="aspect-video bg-muted flex items-center justify-center">
-                <p className="text-muted-foreground italic">Video placeholder: Hajj experience</p>
-              </div>
-            </CardContent>
-          </Card>
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h3 className="text-3xl font-bold text-center mb-8 text-primary">Experience the Hajj</h3>
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Video */}
+            <div className="aspect-video rounded-lg overflow-hidden border-2 border-accent">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/0RPmioCCVpI"
+                title="Hajj Experience"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+            
+            {/* Image */}
+            <Card className="border-2 border-primary overflow-hidden">
+              <CardContent className="p-0">
+                <div className="aspect-video bg-muted flex items-center justify-center">
+                  <p className="text-muted-foreground italic">Image placeholder: Hajj pilgrimage</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
