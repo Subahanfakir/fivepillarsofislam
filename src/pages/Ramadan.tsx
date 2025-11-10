@@ -1,17 +1,17 @@
 import Layout from "@/components/Layout";
 import { Card, CardContent } from "@/components/ui/card";
 
-const Sawm = () => {
+const Ramadan = () => {
   return (
     <Layout>
       {/* Header Banner */}
       <section className="bg-primary text-primary-foreground py-20 islamic-pattern">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6">Sawm</h1>
+          <h1 className="text-6xl md:text-8xl font-bold mb-6">Ramadan</h1>
           <div className="text-5xl md:text-7xl font-amiri text-accent">
-            صَوْم
+            رمضان
           </div>
-          <p className="text-2xl mt-6 text-primary-foreground/90">Fasting During Ramadan</p>
+          <p className="text-2xl mt-6 text-primary-foreground/90">The Sacred Month of Fasting</p>
         </div>
       </section>
 
@@ -73,8 +73,21 @@ const Sawm = () => {
         </div>
       </section>
 
-      {/* Symbolism Section */}
+      {/* Image Section */}
       <section className="py-16 bg-background">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <Card className="border-2 border-accent overflow-hidden">
+            <CardContent className="p-0">
+              <div className="aspect-[16/9] bg-muted flex items-center justify-center">
+                <p className="text-muted-foreground italic">Image placeholder: Ramadan/Iftar scene</p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Symbolism Section */}
+      <section className="py-16 bg-islamic-pattern">
         <div className="container mx-auto px-4 max-w-4xl">
           <Card className="border-2 border-primary">
             <CardContent className="p-8 md:p-12">
@@ -83,7 +96,7 @@ const Sawm = () => {
                 Ramadan is a time of heightened devotion, increased charity, and community bonding. Muslims engage 
                 in extra prayers (Tarawih), read the entire Quran, and strengthen family and social ties through 
                 shared Iftar meals. The month concludes with Eid al-Fitr, a joyous celebration marking the end of 
-                fasting. Through Sawm, believers emerge with renewed faith, greater self-control, and a deeper 
+                fasting. Through Ramadan, believers emerge with renewed faith, greater self-control, and a deeper 
                 appreciation for God's blessings and the struggles of those less fortunate.
               </p>
             </CardContent>
@@ -94,4 +107,4 @@ const Sawm = () => {
   );
 };
 
-export default Sawm;
+export default Ramadan;

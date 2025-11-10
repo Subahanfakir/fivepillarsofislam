@@ -31,6 +31,38 @@ const Shahada = () => {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 bg-islamic-pattern">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h3 className="text-3xl font-bold text-center mb-8 text-primary">Listen to the Shahada</h3>
+          <div className="aspect-video w-full max-w-2xl mx-auto rounded-lg overflow-hidden border-2 border-accent">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/YHwLYn2WJ0E"
+              title="Shahada Recitation"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      {/* Image Section */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <Card className="border-2 border-primary overflow-hidden">
+            <CardContent className="p-0">
+              <div className="aspect-[16/9] bg-muted flex items-center justify-center">
+                <p className="text-muted-foreground italic">Image placeholder: Shahada calligraphy</p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Two Column Section */}
       <section className="py-16 bg-islamic-pattern">
         <div className="container mx-auto px-4 max-w-6xl">

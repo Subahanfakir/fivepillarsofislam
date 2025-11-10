@@ -8,7 +8,7 @@ const Navigation = () => {
     { to: "/shahada", label: "Shahada" },
     { to: "/salah", label: "Salah" },
     { to: "/zakat", label: "Zakat" },
-    { to: "/sawm", label: "Sawm" },
+    { to: "/ramadan", label: "Ramadan" },
     { to: "/hajj", label: "Hajj" },
   ];
 

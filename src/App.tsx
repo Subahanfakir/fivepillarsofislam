@@ -7,7 +7,7 @@ import Index from "./pages/Index";
 import Shahada from "./pages/Shahada";
 import Salah from "./pages/Salah";
 import Zakat from "./pages/Zakat";
-import Sawm from "./pages/Sawm";
+import Ramadan from "./pages/Ramadan";
 import Hajj from "./pages/Hajj";
 import NotFound from "./pages/NotFound";
 
@@ -24,7 +24,7 @@ const App = () => (
           <Route path="/shahada" element={<Shahada />} />
           <Route path="/salah" element={<Salah />} />
           <Route path="/zakat" element={<Zakat />} />
-          <Route path="/sawm" element={<Sawm />} />
+          <Route path="/ramadan" element={<Ramadan />} />
           <Route path="/hajj" element={<Hajj />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

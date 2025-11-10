@@ -63,8 +63,21 @@ const Salah = () => {
         </div>
       </section>
 
-      {/* Symbolism Section */}
+      {/* Image Section */}
       <section className="py-16 bg-background">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <Card className="border-2 border-accent overflow-hidden">
+            <CardContent className="p-0">
+              <div className="aspect-[16/9] bg-muted flex items-center justify-center">
+                <p className="text-muted-foreground italic">Image placeholder: People praying</p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Symbolism Section */}
+      <section className="py-16 bg-islamic-pattern">
         <div className="container mx-auto px-4 max-w-4xl">
           <Card className="border-2 border-primary">
             <CardContent className="p-8 md:p-12">

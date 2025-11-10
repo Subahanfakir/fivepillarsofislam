@@ -23,10 +23,10 @@ const Index = () => {
       link: "/zakat",
     },
     {
-      name: "Sawm",
-      arabic: "صَوْم",
+      name: "Ramadan",
+      arabic: "رمضان",
       description: "The fasting during the month of Ramadan, cultivating discipline, gratitude, and empathy.",
-      link: "/sawm",
+      link: "/ramadan",
     },
     {
       name: "Hajj",
