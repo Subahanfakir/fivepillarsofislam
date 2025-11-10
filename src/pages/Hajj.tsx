@@ -7,11 +7,11 @@ const Hajj = () => {
       {/* Header Banner */}
       <section className="bg-primary text-primary-foreground py-20 islamic-pattern">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6">Hajj</h1>
-          <div className="text-5xl md:text-7xl font-amiri text-accent">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-accent">Hajj</h1>
+          <div className="text-5xl md:text-7xl font-amiri text-foreground">
             حَجّ
           </div>
-          <p className="text-2xl mt-6 text-primary-foreground/90">The Pilgrimage to Mecca</p>
+          <p className="text-2xl mt-6 text-accent">The Pilgrimage to Mecca</p>
         </div>
       </section>
 

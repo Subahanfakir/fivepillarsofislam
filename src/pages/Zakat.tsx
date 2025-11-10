@@ -7,8 +7,8 @@ const Zakat = () => {
       {/* Header Banner */}
       <section className="bg-primary text-primary-foreground py-20 islamic-pattern">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6">Zakat</h1>
-          <div className="text-5xl md:text-7xl font-amiri text-accent">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-accent">Zakat</h1>
+          <div className="text-5xl md:text-7xl font-amiri text-foreground">
             زَكَاة
           </div>
         </div>

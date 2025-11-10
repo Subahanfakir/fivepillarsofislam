@@ -7,11 +7,11 @@ const Ramadan = () => {
       {/* Header Banner */}
       <section className="bg-primary text-primary-foreground py-20 islamic-pattern">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6">Ramadan</h1>
-          <div className="text-5xl md:text-7xl font-amiri text-accent">
-            رمضان
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-accent">Ramadan</h1>
+          <div className="text-5xl md:text-7xl font-amiri text-foreground">
+           رَمَضَان
           </div>
-          <p className="text-2xl mt-6 text-primary-foreground/90">The Sacred Month of Fasting</p>
+          <p className="text-2xl mt-6  text-accent">The Sacred Month of Fasting</p>
         </div>
       </section>
 
