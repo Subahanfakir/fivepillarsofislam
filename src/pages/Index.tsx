@@ -24,7 +24,7 @@ const Index = () => {
     },
     {
       name: "Ramadan",
-      arabic: "رمضان",
+      arabic: "رَمَضَان",
       description: "The fasting during the month of Ramadan, cultivating discipline, gratitude, and empathy.",
       link: "/ramadan",
     },
