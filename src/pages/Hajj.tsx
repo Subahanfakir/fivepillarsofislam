@@ -117,7 +117,7 @@ const Hajj = () => {
             <Card className="border-2 border-primary overflow-hidden">
               <CardContent className="p-0">
                 <img 
-                  src="/photos/Muslim-performing-Hajj-in-Makkah-Credits-Denison-Forum.png" 
+                  src="/photos/Muslim-performing-Hajj-in-Makkah-Credits-Denison-Forum.jpeg" 
                   alt="Muslims performing Hajj in Makkah"
                   className="w-full h-full object-cover aspect-video"
                 />

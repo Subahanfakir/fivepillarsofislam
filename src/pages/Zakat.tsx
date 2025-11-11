@@ -71,7 +71,7 @@ const Zakat = () => {
           <Card className="border-2 border-accent overflow-hidden">
             <CardContent className="p-0">
               <img 
-                src="/photos/muslim-people-giving-zakat-illustration_591903-354.avif" 
+                src="/photos/muslim-people-giving-zakat-illustration_591903-354.jpeg" 
                 alt="Zakat - Islamic Charity and Giving"
                 className="w-full h-full object-cover aspect-[16/9]"
               />

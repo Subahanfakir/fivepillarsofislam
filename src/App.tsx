@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/fivepillarsofislam">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/shahada" element={<Shahada />} />

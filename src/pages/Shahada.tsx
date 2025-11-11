@@ -54,7 +54,7 @@ const Shahada = () => {
             <Card className="border-2 border-primary overflow-hidden">
               <CardContent className="p-0">
                 <img 
-                  src="/photos/shahada-declaration-faith-islam-first-pillar.jpg" 
+                  src="/photos/shahada-declaration-faith-islam-first-pillar.jpeg" 
                   alt="Shahada - The Islamic Declaration of Faith"
                   className="w-full h-full object-cover aspect-video"
                 />
