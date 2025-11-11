@@ -116,9 +116,11 @@ const Hajj = () => {
             {/* Image */}
             <Card className="border-2 border-primary overflow-hidden">
               <CardContent className="p-0">
-                <div className="aspect-video bg-muted flex items-center justify-center">
-                  <p className="text-muted-foreground italic">Image placeholder: Hajj pilgrimage</p>
-                </div>
+                <img 
+                  src="/photos/Muslim-performing-Hajj-in-Makkah-Credits-Denison-Forum.png" 
+                  alt="Muslims performing Hajj in Makkah"
+                  className="w-full h-full object-cover aspect-video"
+                />
               </CardContent>
             </Card>
           </div>

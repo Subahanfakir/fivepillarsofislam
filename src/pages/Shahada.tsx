@@ -53,9 +53,11 @@ const Shahada = () => {
             {/* Image */}
             <Card className="border-2 border-primary overflow-hidden">
               <CardContent className="p-0">
-                <div className="aspect-video bg-muted flex items-center justify-center">
-                  <p className="text-muted-foreground italic">Image placeholder: Shahada calligraphy</p>
-                </div>
+                <img 
+                  src="/photos/shahada-declaration-faith-islam-first-pillar.jpg" 
+                  alt="Shahada - The Islamic Declaration of Faith"
+                  className="w-full h-full object-cover aspect-video"
+                />
               </CardContent>
             </Card>
           </div>

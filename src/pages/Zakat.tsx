@@ -70,9 +70,11 @@ const Zakat = () => {
         <div className="container mx-auto px-4 max-w-4xl">
           <Card className="border-2 border-accent overflow-hidden">
             <CardContent className="p-0">
-              <div className="aspect-[16/9] bg-muted flex items-center justify-center">
-                <p className="text-muted-foreground italic">Image placeholder: Charity and giving</p>
-              </div>
+              <img 
+                src="/photos/muslim-people-giving-zakat-illustration_591903-354.avif" 
+                alt="Zakat - Islamic Charity and Giving"
+                className="w-full h-full object-cover aspect-[16/9]"
+              />
             </CardContent>
           </Card>
         </div>

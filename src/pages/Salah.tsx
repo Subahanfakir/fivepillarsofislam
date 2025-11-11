@@ -68,9 +68,11 @@ const Salah = () => {
         <div className="container mx-auto px-4 max-w-4xl">
           <Card className="border-2 border-accent overflow-hidden">
             <CardContent className="p-0">
-              <div className="aspect-[16/9] bg-muted flex items-center justify-center">
-                <p className="text-muted-foreground italic">Image placeholder: People praying</p>
-              </div>
+              <img 
+                src="/photos/e6d46e2f500fa9474a1dc876a3b92eb4.jpg" 
+                alt="Muslims performing Salah - Islamic Prayer"
+                className="w-full h-full object-cover aspect-[16/9]"
+              />
             </CardContent>
           </Card>
         </div>
