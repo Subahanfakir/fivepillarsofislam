@@ -58,7 +58,7 @@ const Ramadan = () => {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-6 text-accent">The Spiritual Journey</h3>
                 <p className="text-lg leading-relaxed text-foreground">
-                  Ramadan is much more than physical abstinence—it is a comprehensive spiritual exercise. The fast:
+                  Ramadan is much more than physical abstinence, it is a comprehensive spiritual exercise. The fast:
                 </p>
                 <ul className="list-disc list-inside space-y-3 text-foreground mt-4">
                   <li><strong>Develops sympathy for the poor</strong> by experiencing hunger and thirst</li>

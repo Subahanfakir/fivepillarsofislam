@@ -54,7 +54,7 @@ const Salah = () => {
                   Prayer is a moment of direct connection between the believer and God, a time to step away from 
                   worldly concerns and remember the greater purpose of existence. The five daily prayers create a 
                   rhythm of remembrance, preventing the heart from becoming heedless. Through Salah, believers 
-                  cultivate mindfulness, gratitude, humility, and discipline—qualities that extend beyond the 
+                  cultivate mindfulness, gratitude, humility, and discipline, qualities that extend beyond the 
                   prayer mat into all aspects of life.
                 </p>
               </CardContent>
