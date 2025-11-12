@@ -21,8 +21,8 @@ const Zakat = () => {
           <Card className="border-2 border-accent">
             <CardContent className="p-8 md:p-12 space-y-6">
               <p className="text-xl md:text-2xl text-center text-foreground leading-relaxed">
-                Muslims are encouraged to donate a certain percentage of their property and belongings—typically 
-                2.5%—to support those in need. This mandatory act of charity is not optional but a fundamental 
+                Muslims are encouraged to donate a certain percentage of their property and belongings, typically 
+                2.5%, to support those in need. This mandatory act of charity is not optional but a fundamental 
                 obligation for those who have the means.
               </p>
             </CardContent>

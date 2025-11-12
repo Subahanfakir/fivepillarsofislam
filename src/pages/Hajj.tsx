@@ -22,7 +22,7 @@ const Hajj = () => {
           <Card className="border-2 border-accent">
             <CardContent className="p-8 md:p-12 space-y-6">
               <p className="text-xl md:text-2xl text-center text-foreground leading-relaxed">
-                The annual Islamic pilgrimage to the Ka'aba in Mecca, situated in Islam's most important mosque—
+                The annual Islamic pilgrimage to the Ka'aba in Mecca, situated in Islam's most important mosque:
                 Al-Masjid Al-Haram (The Sacred Mosque). All Muslims are expected to perform the Hajj at least 
                 once in their life if they are physically and financially capable.
               </p>
@@ -59,7 +59,7 @@ const Hajj = () => {
                 <h3 className="text-2xl font-bold mb-6 text-accent">The Spiritual Transformation</h3>
                 <p className="text-lg leading-relaxed text-foreground">
                   Hajj is a profound journey of submission, equality, and renewal. The simple white garments 
-                  eliminate all markers of social status, wealth, and nationality—before God, all are equal. 
+                  eliminate all markers of social status, wealth, and nationality, before God, all are equal. 
                   The pilgrimage traces the footsteps of Prophet Abraham, his wife Hagar, and their son Ishmael, 
                   connecting pilgrims to thousands of years of monotheistic tradition. It is a time for seeking 
                   forgiveness, making supplications, and experiencing the overwhelming unity of the global Muslim 
