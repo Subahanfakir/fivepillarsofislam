@@ -117,7 +117,7 @@ const Hajj = () => {
             <Card className="border-2 border-primary overflow-hidden">
               <CardContent className="p-0">
                 <img 
-                  src="/photos/Hajj.jpeg" 
+                  src={`${import.meta.env.BASE_URL}photos/Hajj.jpeg`}
                   alt="Muslims performing Hajj in Makkah"
                   className="w-full h-full object-cover aspect-video"
                 />

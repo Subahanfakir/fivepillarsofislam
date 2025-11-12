@@ -69,7 +69,7 @@ const Salah = () => {
           <Card className="border-2 border-accent overflow-hidden">
             <CardContent className="p-0">
               <img 
-                src="/photos/e6d46e2f500fa9474a1dc876a3b92eb4.jpeg" 
+                src={`${import.meta.env.BASE_URL}photos/e6d46e2f500fa9474a1dc876a3b92eb4.jpeg`}
                 alt="Muslims performing Salah - Islamic Prayer"
                 className="w-full h-full object-cover aspect-[16/9]"
               />

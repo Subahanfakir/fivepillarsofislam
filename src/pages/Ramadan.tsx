@@ -79,7 +79,7 @@ const Ramadan = () => {
           <Card className="border-2 border-accent overflow-hidden">
             <CardContent className="p-0">
               <img 
-                src="/photos/Ramadan-Iftar-sunset-communal-meal-Al-Aqsa-mosque-Jerusalem-Islamic-holy-month-2024.jpeg" 
+                src={`${import.meta.env.BASE_URL}photos/Ramadan-Iftar-sunset-communal-meal-Al-Aqsa-mosque-Jerusalem-Islamic-holy-month-2024.jpeg`}
                 alt="Ramadan Iftar - Breaking Fast at Sunset"
                 className="w-full h-full object-cover aspect-[16/9]"
               />
